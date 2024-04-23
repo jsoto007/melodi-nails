@@ -1,8 +1,10 @@
 'use client'
 import React, { useState } from "react";
-
+import Image from "next/image";
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import melodiShowingNails from '../../../public/melodiShowingNails.JPG'
+
 
 const navigation = [
   { name: 'Product', href: '#' },
@@ -176,8 +178,8 @@ export default function Hero() {
                   </div>
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
                     <div className="relative">
-                      <img
-                        src="https://images.pexels.com/photos/1373747/pexels-photo-1373747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      <Image
+                        src={melodiShowingNails}
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
