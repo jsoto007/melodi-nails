@@ -65,13 +65,13 @@ export default function ProductList() {
               return(
 
                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                  <dt className="text-sm font-medium leading-6 text-gray-900">{product.name}</dt>
+                  <dt className="text-sm font-bold leading-6 text-gray-900">{product.name}</dt>
                   <dd className="mt-1 flex text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                     <span className="flex-grow">{product.description}</span>
                     <span className="ml-4 flex-shrink-0">
-                      <button type="button" className="rounded-md bg-white font-medium text-indigo-600 hover:text-indigo-500">
+                      <span className="rounded-md font-bold text-grey-900">
                         $ {product.price}
-                      </button>
+                      </span>
                     </span>
                   </dd>
                 </div>
