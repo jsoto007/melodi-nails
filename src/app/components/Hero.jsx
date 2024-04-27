@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import NavBar from "./NavBar";
 import Image from "next/image";
 import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { XMarkIcon } from '@heroicons/react/24/outline'
 import melodiShowingNails from '../../../public/melodiShowingNails.JPG'
 
 
@@ -15,7 +15,7 @@ const navigation = [
 ]
 
 export default function Hero() {
-  
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
