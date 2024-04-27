@@ -61,16 +61,16 @@ export default function ProductList() {
       <div className="mt-6 border-t border-gray-100">
         <dl className="divide-y divide-gray-100">
           {
-            products.map(()=> {
+            products.map((product)=> {
               return(
 
                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                  <dt className="text-sm font-medium leading-6 text-gray-900">Application for</dt>
+                  <dt className="text-sm font-medium leading-6 text-gray-900">{product.name}</dt>
                   <dd className="mt-1 flex text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
-                    <span className="flex-grow">Backend Developer</span>
+                    <span className="flex-grow">{product.description}</span>
                     <span className="ml-4 flex-shrink-0">
                       <button type="button" className="rounded-md bg-white font-medium text-indigo-600 hover:text-indigo-500">
-                        Update
+                        $ {product.price}
                       </button>
                     </span>
                   </dd>
