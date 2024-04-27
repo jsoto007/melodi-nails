@@ -130,7 +130,7 @@ export default function Hero() {
             <div className="mx-auto max-w-7xl px-6 pb-32 pt-36 sm:pt-60 lg:px-8 lg:pt-32">
               <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                 <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                  <h1 className="text-9xl font-serif tracking-tight text-[#2A3923] sm:text-9xl">
+                  <h1 className="text-6xl font-serif tracking-tight text-[#2A3923] sm:text-6xl">
                     Melodi Nails
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
