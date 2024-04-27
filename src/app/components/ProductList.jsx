@@ -5,46 +5,55 @@ export default function ProductList() {
 
   const products = [
     {
+    id: 1,
     name: "Russian Minicure",
     price: "50",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+      id: 2,
     name: "Gel Pedicure",
     price: "45",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+      id: 3,
     name: "Acrylic Full Set",
     price: "65",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+    id: 4,
     name: "Fill In Acrylic Color",
     price: "55",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+    id: 5,
     name: "Acrylic Clear & Polish Gel",
     price: "50",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+    id: 6,
     name: "Fill In Clear",
     price: "40",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+    id: 7,
     name: "Ombré Nails",
     price: "70",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+    id: 8,
     name: "Perfect French",
     price: "90",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
     {
+    id: 9,
     name: "Soack Off",
     price: "10",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
@@ -65,7 +74,7 @@ export default function ProductList() {
             products.map((product)=> {
               return(
 
-                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0" key={product.id}>
                   <dt className="text-sm font-bold leading-6 text-gray-900">{product.name}</dt>
                   <dd className="mt-1 flex text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                     <span className="flex-grow">{product.description}</span>
