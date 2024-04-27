@@ -28,31 +28,31 @@ export default function NavBar() {
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                   >
-                    Team
+                    Home
                   </a>
                   <a
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                   >
-                    Team
+                    Nail Bar
                   </a>
                   <a
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                   >
-                    Team
+                    About
                   </a>
                   <a
                     href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
+                    className=" absolute right-4 top-2 inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                   >
-                    Team
+                    Book Now
                   </a>
                 </div>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">
                 {/* Mobile menu button */}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-neutral-200 hover:bg-[#c8af8f] hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset ">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -70,24 +70,33 @@ export default function NavBar() {
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
               >
-                Team
+                Home
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
               >
-                Projects
+                Nail Bar
               </Disclosure.Button>
               <Disclosure.Button
                 as="a"
                 href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
               >
-                Calendar
+                Book Now
               </Disclosure.Button>
+              <Disclosure.Button
+                as="a"
+                href="#"
+                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
+              >
+                About
+              </Disclosure.Button>
+
+
             </div>
           </Disclosure.Panel>
         </>
