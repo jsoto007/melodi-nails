@@ -6,7 +6,7 @@ export default function ProductList() {
   const products = [
     {
     id: 1,
-    name: "Russian Minicure",
+    name: "Russian Manicure",
     price: "50",
     description: "We use a proprietaty system to apply acrillic nail polish and dry it."
     },
