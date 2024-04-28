@@ -2,23 +2,6 @@
  import React from "react";
  import Image from "next/image";
 
-
- /*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
-import { StarIcon } from '@heroicons/react/20/solid'
-
 const products = [
   {
     id: 1,
