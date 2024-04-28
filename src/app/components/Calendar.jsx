@@ -1,11 +1,15 @@
+'use client'
 import React from "react";
+import { InlineWidget } from "react-calendly";
+
 
 export default function Calendar() {
 
   return (
-    <div>
-      <div class="calendly-inline-widget" data-url="https://calendly.com/nailsmelodi?text_color=ffffff&primary_color=2a3923" style="min-width:320px;height:700px;"></div>
-      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <div className="bg-[#D7D4D1]">
+      <div>
+        <InlineWidget url="https://calendly.com/nailsmelodi" />
+      </div>
     </div>
   )
 }
