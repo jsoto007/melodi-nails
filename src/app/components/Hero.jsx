@@ -27,7 +27,7 @@ export default function Hero() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Your Company</span>
+                <span className="sr-only">Melodi Nails</span>
                 <img
                   className="h-8 w-auto"
                   src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
@@ -115,7 +115,7 @@ export default function Hero() {
                   <div className="mt-10 flex items-center gap-x-6">
                     <a
                       href="#"
-                      className="rounded-md bg-[#6f7863] px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-[#6f7863] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 border-2"
+                      className="rounded-md bg-gradient-to-tl from-[#6f7863] to-[#2A3923] px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-[#6f7863] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 border-2"
                     >
                       Book Now
                     </a>
