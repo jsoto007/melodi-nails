@@ -5,6 +5,11 @@ import Image from "next/image";
 import { Dialog } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import melodiShowingNails from '../../../public/melodiShowingNails.JPG'
+import russianManicure2 from '../../../public/russianManicure2.jpg'
+import greenNails from '../../../public/greenNails.jpg'
+import whiteNails from '../../../public/whiteNails.jpg'
+import nailsWhiteBg from '../../../public/nailsWhiteBg.jpg'
+
 
 
 const navigation = [
@@ -134,16 +139,16 @@ export default function Hero() {
                   </div>
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                     <div className="relative">
-                      <img
-                        src="https://images.pexels.com/photos/7664093/pexels-photo-7664093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      <Image
+                        src={whiteNails}
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
-                      <img
-                        src="https://images.pexels.com/photos/1373747/pexels-photo-1373747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      <Image
+                        src={nailsWhiteBg}
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
@@ -160,8 +165,8 @@ export default function Hero() {
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
                     <div className="relative">
-                      <img
-                        src="https://images.pexels.com/photos/3997392/pexels-photo-3997392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                      <Image
+                        src={greenNails}
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
