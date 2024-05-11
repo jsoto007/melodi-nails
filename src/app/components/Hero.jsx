@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import NavBar from "./NavBar";
+import Link from "next/link";
 import Image from "next/image";
 import { Dialog } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
@@ -118,12 +119,12 @@ export default function Hero() {
                     mollit id pariatur in voluptate cillum.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
-                    <a
-                      href="#"
+                    <Link
+                      href="#booking"
                       className="rounded-md bg-gradient-to-tl from-[#6f7863] to-[#2A3923] px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-[#6f7863] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 border-2"
                     >
                       Book Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">

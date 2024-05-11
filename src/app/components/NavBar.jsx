@@ -55,7 +55,7 @@ export default function NavBar() {
                     return(
                         <Link
                           key={item.id}
-                          href={`#${item.ref}`}
+                        href={`#${item.ref}`}
                           className="scroll-smooth inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                         >
                           {item.value}
