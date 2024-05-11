@@ -9,7 +9,33 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+
 export default function NavBar() {
+
+
+  const navList = [
+    {
+      id: 1,
+      ref: "home", 
+      value: "Home"
+    },
+    {
+      id: 2,
+      ref: "services", 
+      value: "Nail Bar"
+    },
+    {
+      id: 3,
+      ref: "about", 
+      value: "About"
+    },
+    {
+      id: 3,
+      ref: "booking", 
+      value: "Book Now"
+    },
+  ]
+
   return (
     <Disclosure as="nav" className="bg-[#2a3923] shadow">
       {({ open }) => (
@@ -25,31 +51,16 @@ export default function NavBar() {
                 />
                 </div>
                 <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                  <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
-                  >
-                    Home
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
-                  >
-                    Nail Bar
-                  </a>
-                  <Link
-                    href="#services"
-                    // scroll={false}
-                    className="scroll-smooth inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
-                  >
-                    About
-                  </Link>
-                  <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-100 hover:border-[#c1a88a] hover:text-white"
-                  >
-                    Book Now
-                  </a>
+                  {navList.map((item) => {
+                    return(
+                        <Link
+                          href={`#${item.ref}`}
+                          className="scroll-smooth inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
+                        >
+                          {item.value}
+                    </Link>
+                    )
+                  })}
                 </div>
               </div>
               <div className="-mr-2 flex items-center sm:hidden">

@@ -24,7 +24,7 @@ export default function Hero() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-[#ECE7E2]">
+    <div id="home" className="bg-[#ECE7E2]">
       <header className="absolute inset-x-0 top-0 z-50">
       <NavBar />
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
