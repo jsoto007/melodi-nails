@@ -1,7 +1,8 @@
 'use client'
 import Image from 'next/image'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import MNLogo from "../../../public/MNLogo.png"
 
 function classNames(...classes) {
@@ -36,12 +37,13 @@ export default function NavBar() {
                   >
                     Nail Bar
                   </a>
-                  <a
-                    href="#"
-                    className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
+                  <Link
+                    href="#services"
+                    // scroll={false}
+                    className="scroll-smooth inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                   >
                     About
-                  </a>
+                  </Link>
                   <a
                     href="#"
                     className="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-100 hover:border-[#c1a88a] hover:text-white"

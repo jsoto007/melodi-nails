@@ -74,7 +74,7 @@ export default function ProductList() {
 
 
   return (
-    <div className='bg-[#ECE7E2]'>
+    <div className='bg-[#ECE7E2]' id='services'>
     <div className='sm:mx-16 md:mx-16 lg:mx-16'>
       <div className="px-4 sm:px-0">
         <h3 className="text-base font-semibold leading-7 text-gray-900">Nail Bar</h3>
