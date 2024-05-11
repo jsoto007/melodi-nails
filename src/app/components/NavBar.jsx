@@ -30,7 +30,7 @@ export default function NavBar() {
       value: "About"
     },
     {
-      id: 3,
+      id: 4,
       ref: "booking", 
       value: "Book Now"
     },
@@ -54,6 +54,7 @@ export default function NavBar() {
                   {navList.map((item) => {
                     return(
                         <Link
+                          key={item.id}
                           href={`#${item.ref}`}
                           className="scroll-smooth inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-neutral-200 hover:border-[#c1a88a] hover:text-white"
                         >
@@ -80,36 +81,18 @@ export default function NavBar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 pb-3 pt-2">
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
-              >
-                Home
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
-              >
-                Nail Bar
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
-              >
-                Book Now
-              </Disclosure.Button>
-              <Disclosure.Button
-                as="a"
-                href="#"
-                className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
-              >
-                About
-              </Disclosure.Button>
 
-
+            {navList.map((item) => {
+              return(
+                <Link
+                  key={item.ref}
+                  href={`#${item.ref}`}
+                  className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-neutral-200 "
+                >
+                  {item.value}
+                    </Link>
+                )
+              })}
             </div>
           </Disclosure.Panel>
         </>
