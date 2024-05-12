@@ -132,7 +132,7 @@ export default function Hero() {
                     <div className="relative">
                       <img
                         src="https://images.pexels.com/photos/704815/pexels-photo-704815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                        alt=""
+                        alt="green nails"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -142,7 +142,7 @@ export default function Hero() {
                     <div className="relative">
                       <Image
                         src={whiteNails}
-                        alt=""
+                        alt="women showing nails"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -150,7 +150,7 @@ export default function Hero() {
                     <div className="relative">
                       <Image
                         src={nailsWhiteBg}
-                        alt=""
+                        alt="white nails"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -160,7 +160,7 @@ export default function Hero() {
                     <div className="relative">
                       <Image
                         src={melodiShowingNails}
-                        alt=""
+                        alt="women showing nails"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -168,7 +168,7 @@ export default function Hero() {
                     <div className="relative">
                       <Image
                         src={greenNails}
-                        alt=""
+                        alt="Photo is women nails"
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
