@@ -18,7 +18,7 @@ export default function PreviewPage() {
             }
           ]
         })
-      }}>Booking Fee</button>
+      }}> Pay Now</button>
     </div>
   )
 }
