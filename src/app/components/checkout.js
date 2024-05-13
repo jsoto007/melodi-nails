@@ -19,6 +19,5 @@ export async function checkout({ lineItems }){
     lineItems,
     successUrl: `https://melodinails.com/#booking`,
     cancelUrl: window.location.origin
-
   })
 }
