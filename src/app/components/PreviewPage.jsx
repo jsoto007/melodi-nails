@@ -2,7 +2,6 @@
 import React from "react";
 import { checkout } from "./checkout";
 
-
 export default function PreviewPage() {
   
   return (
