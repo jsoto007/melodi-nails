@@ -114,9 +114,7 @@ export default function Hero() {
                     Melodi Nails
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                    Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in quis cupidatat mollit aute velit. Et
-                    labore commodo nulla aliqua proident mollit ullamco exercitation tempor. Sint aliqua anim nulla sunt
-                    mollit id pariatur in voluptate cillum.
+                  Hi! I'm Melodi Mejía, owner of Melodi_nails. I am a highly trained professional in natural and artificial nail care. Schedule an appointment on our website today to unlock a world of satisfaction with beautiful, healthy nails.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link
