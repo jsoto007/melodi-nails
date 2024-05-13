@@ -114,7 +114,7 @@ export default function Hero() {
                     Melodi Nails
                   </h1>
                   <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                  Hi! I'm Melodi Mejía, owner of Melodi_nails. I am a highly trained professional in natural and artificial nail care. Schedule an appointment on our website today to unlock a world of satisfaction with beautiful, healthy nails.
+                  Hi! I am Melodi Mejía, owner of Melodi_nails. I am a highly trained professional in natural and artificial nail care. Schedule an appointment on our website today to unlock a world of satisfaction with beautiful, healthy nails.
                   </p>
                   <div className="mt-10 flex items-center gap-x-6">
                     <Link
