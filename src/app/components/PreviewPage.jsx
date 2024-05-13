@@ -6,7 +6,7 @@ import { checkout } from "./checkout";
 export default function PreviewPage() {
   
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center">
       <button 
       className="rounded-md bg-gradient-to-tl from-[#6f7863] to-[#2A3923] px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-[#6f7863] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 border-2"
       onClick={() =>{
