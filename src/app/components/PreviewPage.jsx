@@ -20,7 +20,7 @@ export default function PreviewPage() {
         checkout({
           lineItems: [
             {
-              price: 'price_1PEE2LP81D2P6S8DHvHqOkZ2',
+              price: 'price_1PGBkqP81D2P6S8DJc9EMbkK',
               quantity: 1,
             }
           ]
