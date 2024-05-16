@@ -6,67 +6,67 @@ export default function ProductList() {
   const products = [
     {
     id: 1,
-    name: "Russian Manicure",
+    name: "Manicura rusa",
     price: "50",
     description: "Consta de una manicura en seco donde nos enfocamos en la limpieza de las cutículas y pulido de la piel, más un esmaltado semi permanente y gel calcio."
     },
     {
       id: 2,
-    name: "Gel Pedicure",
+    name: "Pedicura en gel",
     price: "45",
     description: "Una limpieza de uñas y pies , exfoliación , hidratación y el esmaltado de su preferencia semi permanent."
     },
     {
       id: 3,
-    name: "Acrylic Full Set",
+    name: "Acrílico de color",
     price: "65",
     description: "Consta de un acrílico de color ya sea el de su preferencia. "
     },
     {
     id: 4,
-    name: "Fill In Acrylic Color",
+    name: "Retoque en acrílico de color",
     price: "55",
     description: "Es un relleno en el área ya crecida de las uñas que ya lleva puesta del mismo color."
     },
     {
     id: 5,
-    name: "Acrylic Clear & Polish Gel",
+    name: "Uñas con pintura en gel",
     price: "50",
     description: "Uñas en acrílico trasparente y un esmaltado semi permanente."
     },
     {
     id: 6,
-    name: "Fill In Clear",
+    name: "Retoque de acrílico cristal",
     price: "40",
     description: "Relleno de acrílico cristal y un esmaltado semi permanente"
     },
     {
     id: 7,
-    name: "Ombré Nails",
+    name: "Baby boomer",
     price: "70",
     description: "Consta de un difuminado entre dos acrílicos de colores."
     },
     {
     id: 8,
-    name: "Perfect French",
+    name: "French perfecto",
     price: "90",
     description: "Este set consta de un fresh y una base en acrílico de color."
     },
     {
     id: 9,
-    name: "Soack Off",
-    price: "10",
+    name: "Derretido de uñas acrílicas",
+    price: "15",
     description: "Remojamos las uñas en acetona pura al 100% y agua caliente para retiro de uñas."
     },
     {
     id: 10,
-    name: "Acrylic full set + French",
+    name: "Acrílico de color + French",
     price: "75",
     description: "Acrílico de color más French del color de su preferencia en gel."
     },
     {
     id: 11,
-    name: "Paraffin treatment",
+    name: "Tratamiento de parafina",
     price: "15",
     description: "En este tratamiento les sumergiremos  sus pies o manos a una cera caliente que le ayudará con la hidratación y circulación."
     },
