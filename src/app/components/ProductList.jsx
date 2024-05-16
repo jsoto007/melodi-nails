@@ -55,7 +55,7 @@ export default function ProductList() {
     {
     id: 9,
     name: "Derretido de uñas acrílicas",
-    price: "15",
+    price: "10",
     description: "Remojamos las uñas en acetona pura al 100% y agua caliente para retiro de uñas."
     },
     {
@@ -67,7 +67,7 @@ export default function ProductList() {
     {
     id: 11,
     name: "Tratamiento de parafina",
-    price: "15",
+    price: "10",
     description: "En este tratamiento les sumergiremos  sus pies o manos a una cera caliente que le ayudará con la hidratación y circulación."
     },
   ]
