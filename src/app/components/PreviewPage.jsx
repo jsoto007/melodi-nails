@@ -25,7 +25,7 @@ export default function PreviewPage() {
             }
           ]
         })
-      }}> Pay Booking Now</button>
+      }}>Pagar Reserva Ahora</button>
     </div>
   )
 }

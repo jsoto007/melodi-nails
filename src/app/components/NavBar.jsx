@@ -22,7 +22,7 @@ export default function NavBar() {
     {
       id: 2,
       ref: "services", 
-      value: "Nail Bar"
+      value: "Menu"
     },
     {
       id: 3,
