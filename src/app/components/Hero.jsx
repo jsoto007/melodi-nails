@@ -6,7 +6,6 @@ import Image from "next/image";
 import { Dialog } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import melodiShowingNails from '../../../public/melodiShowingNails.JPG'
-import russianManicure2 from '../../../public/russianManicure2.jpg'
 import greenNails from '../../../public/greenNails.jpg'
 import whiteNails from '../../../public/whiteNails.jpg'
 import nailsWhiteBg from '../../../public/nailsWhiteBg.jpg'

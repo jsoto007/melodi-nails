@@ -5,7 +5,7 @@ import { checkout } from "./checkout";
 export default function PreviewPage() {
   
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div id="booking" className="flex flex-col items-center justify-center">
       <div>
       <div className="bg-gray-50 px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-3">
             <dt className="text-sm font-medium leading-6 text-gray-900">Políticas del Centro</dt>

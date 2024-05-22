@@ -4,7 +4,7 @@ import Calendar from "./Calendar";
 export default function CalendarContainer() {
 
   return(
-    <div id="booking">
+    <div>
       <Calendar />
     </div>
   )

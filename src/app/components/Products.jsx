@@ -27,37 +27,6 @@ const products = [
     imageAlt: 'Acrylic Full Set',
     href: '#',
   },
-  // {
-  //   id: 4,
-  //   name: 'Organize Phone Holder',
-  //   price: '$15',
-  //   rating: 4,
-  //   reviewCount: 21,
-  //   imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-04.jpg',
-  //   imageAlt: 'TODO',
-  //   href: '#',
-  // },
-  // {
-  //   id: 4,
-  //   name: 'Organize Phone Holder',
-  //   price: '$15',
-  //   rating: 4,
-  //   reviewCount: 21,
-  //   imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-04.jpg',
-  //   imageAlt: 'TODO',
-  //   href: '#',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'Organize Phone Holder',
-  //   price: '$15',
-  //   rating: 4,
-  //   reviewCount: 21,
-  //   imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-04.jpg',
-  //   imageAlt: 'TODO',
-  //   href: '#',
-  // },
-  // More products...
 ]
 
 function classNames(...classes) {
@@ -66,7 +35,6 @@ function classNames(...classes) {
 
 export default function Products() {
 
-  console.log("img condolelog:", products.imageSrc)
 
 
   return (
